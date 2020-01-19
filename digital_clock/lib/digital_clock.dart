@@ -82,7 +82,6 @@ class _DigitalClockState extends State<DigitalClock> {
     final minute = DateFormat('mm').format(_dateTime);
     final second = DateFormat('ss').format(_dateTime);
     final fontSize = MediaQuery.of(context).size.width / 3.5;
-    final offset = -fontSize / 7;
     final defaultStyle = TextStyle(
       color: colors[_Element.text],
       fontSize: fontSize,
